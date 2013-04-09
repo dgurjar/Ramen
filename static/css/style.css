@@ -155,14 +155,25 @@ input[type=submit]{
 /* Home
  * --------------------------------------------------------------------------*/
 .home-row{
+	height: 45%;
 }
 
 .home-icon{
 	display: inline-block;
 	width: 45%;
-	height: 45%;
 	text-align: center;
 	clear: both;
 	font-weight: 600;
+	margin-bottom: 5%;
+}
+
+.home-icon img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home-icon p{
+	margin-top: 0px;
 }
 
