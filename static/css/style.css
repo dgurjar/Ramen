@@ -5,7 +5,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* General 
  * --------------------------------------------------------------------------*/
 body{
- 	background-color: #FFB100;
  	font-family: 'Open Sans', sans-serif;
 }
 
@@ -143,7 +142,7 @@ input[type=submit]{
 	margin: 1em auto 0em auto;
 }
 
-#no-account{
+#login-form-footer{
 	width: 300px;
 	display: block;
 	margin: 1em auto 0em auto;
@@ -153,5 +152,17 @@ input[type=submit]{
 }	
 
 
+/* Home
+ * --------------------------------------------------------------------------*/
+.home-row{
+}
 
+.home-icon{
+	display: inline-block;
+	width: 45%;
+	height: 45%;
+	text-align: center;
+	clear: both;
+	font-weight: 600;
+}
 
